@@ -10,15 +10,23 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.7.3",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "emoji-picker-react": "^4.11.1",
     "framer-motion": "^11.3.21",
     "lucide-react": "^0.424.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-icons": "^5.2.1",
     "react-router-dom": "^6.26.0",
+    "react-toastify": "^10.0.5",
+    "socket.io-client": "^4.7.5",
+    "styled-components": "^6.1.12",
     "tailwind-merge": "^2.4.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "uuid": "^10.0.0",
+    "uuidv4": "^6.2.13"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",
@@ -33,7 +41,7 @@
     "eslint-plugin-react-refresh": "^0.4.7",
     "postcss": "^8.4.40",
     "tailwindcss": "^3.4.7",
-    "typescript": "^5.2.2",
+    "typescript": "^5.5.4",
     "vite": "^5.3.4"
   }
 }
