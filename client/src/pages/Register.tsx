@@ -33,6 +33,7 @@ const Register: React.FC = () => {
 
   useEffect(() => {
     if (localStorage.getItem(process.env.REACT_APP_LOCALHOST_KEY || "")) {
+      // navigate to the page
       navigate("/");
     }
   }, [navigate]);
